@@ -1,7 +1,17 @@
 aid: eksab
 name: Eksab
-description: Eksab is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Eksab is a Cairo-based daily fantasy sports and football-prediction platform
+  for the MENA region. Founded in 2017 by Aly Mahmoud, it lets fans predict the
+  scores and outcomes of live football matches, earn points based on the
+  accuracy of their picks, and win prizes through free and paid competitions.
+  The platform has grown to over 700,000 registered users making more than a
+  million picks each month, and in 2022 became the exclusive fantasy sports
+  partner of the Egyptian Premier League. Eksab is backed by 500 Global (500
+  Startups), 4DX Ventures, and others across roughly $3.7M in seed funding.
+  This profile is maintained in the API Evangelist network; Eksab is a consumer
+  mobile/web product and does not currently publish a public developer API
+  surface.
 url: https://raw.githubusercontent.com/api-evangelist/eksab/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://eksab.com/icon-512x512.png
 tags:
 - Company
+- Fantasy Sports
+- Daily Fantasy Sports
+- Sports
+- Gaming
+- Predictions
+- Football
+- Egypt
+- MENA
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +51,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/eksab-domain-security.yml
 - type: Website
   url: https://eksab.com
+- type: SignUp
+  url: https://eksab.com/register
+- type: Login
+  url: https://eksab.com/login
+- type: Support
+  url: https://eksab.com/contact
+- type: Blog
+  url: https://eksab.com/news
+- type: Pricing
+  url: https://eksab.com/store/coins
+- type: TermsOfService
+  url: https://eksab.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://monolith.eksab.com/privacy.html
+- type: Careers
+  url: https://yallaeksab.freshteam.com/jobs
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
